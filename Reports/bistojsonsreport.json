@@ -1,0 +1,625 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6653026800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch browser and window maximize",
+            "match": {
+              "location": "Bristoo.launchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22741406200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch url",
+            "match": {
+              "location": "Bristoo.launchUrl()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "To validate the login functionality using invalid User name and password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5090038800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the account button",
+            "match": {
+              "location": "Bristoo.userClickTheAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205371300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter invalid username",
+            "match": {
+              "location": "Bristoo.userEnterInvalidUsername()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189974400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter invalid password",
+            "match": {
+              "location": "Bristoo.userEnterInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1718537600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click login button",
+            "match": {
+              "location": "Bristoo.userClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239754100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close browser",
+            "match": {
+              "location": "Bristoo.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2035864200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch browser and window maximize",
+            "match": {
+              "location": "Bristoo.launchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43898983300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch url",
+            "match": {
+              "location": "Bristoo.launchUrl()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "User to add Dosa to the cart",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4430868800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks the account button",
+            "match": {
+              "location": "Bristoo.userClicksTheAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1988790700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Bristoo.userEnterValidUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6239697500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click the home button",
+            "match": {
+              "location": "Bristoo.userClickTheHomeButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5297060800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click Dosa on popular items",
+            "match": {
+              "location": "Bristoo.userClickDosaOnPopularItems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5799228100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click masala dosa",
+            "match": {
+              "location": "Bristoo.userClickMasalaDosa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3048788100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Print available time",
+            "match": {
+              "location": "Bristoo.printAvailableTime()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187057500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "close the browser",
+            "match": {
+              "location": "Bristoo.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2165650800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch browser and window maximize",
+            "match": {
+              "location": "Bristoo.launchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74711128000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch url",
+            "match": {
+              "location": "Bristoo.launchUrl()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16310712300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click the account button",
+            "match": {
+              "location": "Bristoo.clickTheAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567607500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter name,email,phone number and password",
+            "match": {
+              "location": "Bristoo.enterNameEmailPhoneNumberAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1826396000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click register button",
+            "match": {
+              "location": "Bristoo.clickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "print popup",
+            "match": {
+              "location": "Bristoo.printPopup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696175200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Quit browser",
+            "match": {
+              "location": "Bristoo.quitBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2065599200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch browser and window maximize",
+            "match": {
+              "location": "Bristoo.launchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90731947300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch url",
+            "match": {
+              "location": "Bristoo.launchUrl()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92447400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click search icon",
+            "match": {
+              "location": "Bristoo.clickSearchIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5327581600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Enter coke",
+            "match": {
+              "location": "Bristoo.enterCoke()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5042050700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "check price",
+            "match": {
+              "location": "Bristoo.checkPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214384800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Quits browser",
+            "match": {
+              "location": "Bristoo.quitsBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag4"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4288775700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch browser and window maximize",
+            "match": {
+              "location": "Bristoo.launchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21519096600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch url",
+            "match": {
+              "location": "Bristoo.launchUrl()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79557000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user click search icon",
+            "match": {
+              "location": "Bristoo.userClickSearchIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3847629800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter Spanish omlet",
+            "match": {
+              "location": "Bristoo.enterSpanishOmlet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62613000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Check the price",
+            "match": {
+              "location": "Bristoo.checkThePrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192785700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Quit the browser",
+            "match": {
+              "location": "Bristoo.quitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag5"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2176836300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch browser and window maximize",
+            "match": {
+              "location": "Bristoo.launchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21076537400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch url",
+            "match": {
+              "location": "Bristoo.launchUrl()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2638799500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "click user story",
+            "match": {
+              "location": "Bristoo.clickUserStory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Quits the browser",
+            "match": {
+              "location": "Bristoo.quitsTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag6"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To Validate the Bisto Bites website",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/BistoBites/Bisto.feature",
+    "tags": []
+  }
+]

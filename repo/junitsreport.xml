@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="60.056612">
+    <testcase classname="" name="_2" time="60.056612">
+        <system-out><![CDATA[Given User launch browser and maximize window...............................passed
+When User launch url........................................................passed
+And mouse over to men.......................................................passed
+And User click tshirt option................................................passed
+And User click first product and select m size..............................passed
+And user click bag icon.....................................................passed
+And user take screenshot....................................................passed
+Then User quit browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

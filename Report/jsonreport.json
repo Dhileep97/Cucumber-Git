@@ -1,0 +1,496 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "Enter Valid and invalid details",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11097170800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch browser and window maximize",
+            "match": {
+              "location": "BasicICICI.launchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4937487300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch url",
+            "match": {
+              "location": "BasicICICI.launchUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331966200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Valid user Id",
+            "match": {
+              "location": "BasicICICI.enterValidUserId()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 797082700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Invalid password",
+            "match": {
+              "location": "BasicICICI.enterInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102135800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click login",
+            "match": {
+              "location": "BasicICICI.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 536480700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "quit browser",
+            "match": {
+              "location": "BasicICICI.quitBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "",
+        "description": "validate positive and negative details",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1697194500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user launch browser and window maximize",
+            "match": {
+              "location": "MultiDeatils.userLaunchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5151229800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch url",
+            "match": {
+              "location": "MultiDeatils.userLaunchUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161469900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter id as \"CaptainAmerica\"in Id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CaptainAmerica\"",
+                  "offset": 12
+                }
+              ],
+              "location": "MultiDeatils.enterIdAsInIdField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106405700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter pass as \"Shield\"in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shield\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MultiDeatils.enterPassAsInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1804877900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click login",
+            "match": {
+              "location": "MultiDeatils.userClickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 518921800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user quit the browser",
+            "match": {
+              "location": "MultiDeatils.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "",
+        "description": "validate positive and negative details",
+        "id": ";;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1576485300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user launch browser and window maximize",
+            "match": {
+              "location": "MultiDeatils.userLaunchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4720278100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch url",
+            "match": {
+              "location": "MultiDeatils.userLaunchUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130264400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter id as \"IronMan\"in Id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"IronMan\"",
+                  "offset": 12
+                }
+              ],
+              "location": "MultiDeatils.enterIdAsInIdField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110308400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter pass as \"Suite\"in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suite\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MultiDeatils.enterPassAsInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1988403400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click login",
+            "match": {
+              "location": "MultiDeatils.userClickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472220800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user quit the browser",
+            "match": {
+              "location": "MultiDeatils.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "",
+        "description": "validate positive and negative details",
+        "id": ";;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1593026900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user launch browser and window maximize",
+            "match": {
+              "location": "MultiDeatils.userLaunchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5524413700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch url",
+            "match": {
+              "location": "MultiDeatils.userLaunchUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185975600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter id as \"Batman\"in Id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Batman\"",
+                  "offset": 12
+                }
+              ],
+              "location": "MultiDeatils.enterIdAsInIdField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94837600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter pass as \"Bike\"in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bike\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MultiDeatils.enterPassAsInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1461501700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click login",
+            "match": {
+              "location": "MultiDeatils.userClickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 435723000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user quit the browser",
+            "match": {
+              "location": "MultiDeatils.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "",
+        "description": "validate positive and negative details",
+        "id": ";;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1557477900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user launch browser and window maximize",
+            "match": {
+              "location": "MultiDeatils.userLaunchBrowserAndWindowMaximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5476727000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user launch url",
+            "match": {
+              "location": "MultiDeatils.userLaunchUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286328900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter id as \"Thor\"in Id field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thor\"",
+                  "offset": 12
+                }
+              ],
+              "location": "MultiDeatils.enterIdAsInIdField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112981200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter pass as \"Mjolnir\"in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mjolnir\"",
+                  "offset": 14
+                }
+              ],
+              "location": "MultiDeatils.enterPassAsInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2286240000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click login",
+            "match": {
+              "location": "MultiDeatils.userClickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486504200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user quit the browser",
+            "match": {
+              "location": "MultiDeatils.userQuitTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "Validate the ICICI login page",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/ICICIReport/report.feature",
+    "tags": []
+  }
+]

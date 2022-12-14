@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="111.67821">
+    <testcase classname="Validate Redbus login" name="validate login with valid mobile number" time="34.330563">
+        <system-out><![CDATA[Given Launch browser and maximize window....................................passed
+When launch url.............................................................passed
+And click profile icon......................................................passed
+And click signup button.....................................................passed
+And enter mobile number.....................................................passed
+Then quit browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Redbus login" name="To validate the positive and negative combination of login functionality of the RedBus app" time="26.266069">
+        <system-out><![CDATA[Given launch browser and window maximize....................................passed
+When Launch redbus url......................................................passed
+And Click profile ico.......................................................passed
+And Click signupbutton......................................................passed
+And Enter mobile number as"8520369741"in mobile number field................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Redbus login" name="To validate the positive and negative combination of login functionality of the RedBus app 2" time="25.344247">
+        <system-out><![CDATA[Given launch browser and window maximize....................................passed
+When Launch redbus url......................................................passed
+And Click profile ico.......................................................passed
+And Click signupbutton......................................................passed
+And Enter mobile number as"7412369850"in mobile number field................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate Redbus login" name="To validate the positive and negative combination of login functionality of the RedBus app 3" time="25.737331">
+        <system-out><![CDATA[Given launch browser and window maximize....................................passed
+When Launch redbus url......................................................passed
+And Click profile ico.......................................................passed
+And Click signupbutton......................................................passed
+And Enter mobile number as"9630258741"in mobile number field................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

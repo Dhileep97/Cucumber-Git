@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="218.593121">
+    <testcase classname="" name="_2" time="30.42141">
+        <system-out><![CDATA[Given Launch browser and window maximize....................................passed
+When launch url.............................................................passed
+And User click the account button...........................................passed
+And User enter invalid username.............................................passed
+And User enter invalid password.............................................passed
+And User click login button.................................................passed
+Then close browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_3" time="58.36269">
+        <system-out><![CDATA[Given Launch browser and window maximize....................................passed
+When launch url.............................................................passed
+And User clicks the account button..........................................passed
+And User enter valid username and password..................................passed
+And User click the home button..............................................passed
+And User click Dosa on popular items........................................passed
+And User click masala dosa..................................................passed
+And Print available time....................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_4" time="30.452639">
+        <system-out><![CDATA[Given Launch browser and window maximize....................................passed
+When launch url.............................................................passed
+And Click the account button................................................passed
+And Enter name,email,phone number and password..............................passed
+And click register button...................................................passed
+And print popup.............................................................passed
+Then Quit browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_5" time="36.991854">
+        <system-out><![CDATA[Given Launch browser and window maximize....................................passed
+When launch url.............................................................passed
+And Click search icon.......................................................passed
+And Enter coke..............................................................passed
+And check price.............................................................passed
+Then Quits browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_6" time="27.322335">
+        <system-out><![CDATA[Given Launch browser and window maximize....................................passed
+When launch url.............................................................passed
+And user click search icon..................................................passed
+And Enter Spanish omlet.....................................................passed
+And Check the price.........................................................passed
+Then Quit the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_7" time="35.042193">
+        <system-out><![CDATA[Given Launch browser and window maximize....................................passed
+When launch url.............................................................passed
+And click user story........................................................passed
+Then Quits the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

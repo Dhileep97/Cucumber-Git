@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="57.749328">
+    <testcase classname="" name="_2" time="19.806786">
+        <system-out><![CDATA[Given launch browser and window maximize....................................passed
+When Launch url.............................................................passed
+And Enter Valid user Id.....................................................passed
+And Enter Invalid password..................................................passed
+And Click login.............................................................passed
+Then quit browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_3" time="9.440846">
+        <system-out><![CDATA[Given user launch browser and window maximize...............................passed
+When user launch url........................................................passed
+And enter id as "CaptainAmerica"in Id field.................................passed
+And enter pass as "Shield"in password field.................................passed
+And user click login........................................................passed
+Then user quit the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_4" time="8.998489">
+        <system-out><![CDATA[Given user launch browser and window maximize...............................passed
+When user launch url........................................................passed
+And enter id as "IronMan"in Id field........................................passed
+And enter pass as "Suite"in password field..................................passed
+And user click login........................................................passed
+Then user quit the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_5" time="9.296089">
+        <system-out><![CDATA[Given user launch browser and window maximize...............................passed
+When user launch url........................................................passed
+And enter id as "Batman"in Id field.........................................passed
+And enter pass as "Bike"in password field...................................passed
+And user click login........................................................passed
+Then user quit the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_6" time="10.207118">
+        <system-out><![CDATA[Given user launch browser and window maximize...............................passed
+When user launch url........................................................passed
+And enter id as "Thor"in Id field...........................................passed
+And enter pass as "Mjolnir"in password field................................passed
+And user click login........................................................passed
+Then user quit the browser..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
